@@ -1,0 +1,41 @@
+.page {
+	padding: 10px;
+}
+
+.order {
+	padding: 10px;
+	border-bottom: solid 1px #e0e0e0;
+	font-size: 16px;
+}
+
+.line-1 {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 5px;
+}
+
+.line-2 {
+	padding-bottom: 5px;
+}
+
+.line-3 {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.pay-btn {
+	margin: 0;
+	font-size: 14px;
+    line-height: 2;
+    background-color: #2FB31F;
+    color: #fff;
+    border: none;
+    width: 80px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.pay-btn:active{
+    background-color: #238717;
+}

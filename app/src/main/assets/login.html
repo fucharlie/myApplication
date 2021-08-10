@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="login.css" />
+</head>
+
+<body>
+<div class="panel">
+    <form id="loginForm" method="post">
+        <h2>XXX电商系统</h2>
+        <div class="row">用户名</div>
+        <div class="row">
+            <input type="text" id="username" name="username" class="input" placeholder="输入用户名" required="required"
+                   pattern="^[A-Za-z0-9]{3,20}$" />
+        </div>
+        <div class="row">密码</div>
+        <div class="row">
+            <input type="password" id="password" name="password" class="input" placeholder="输入密码"
+                   required="required" pattern="^[A-Za-z0-9]{6,20}$" />
+        </div>
+        <div class="row">
+            <input type="submit" value="登陆" class="btn" />
+        </div>
+    </form>
+    		<div id="demo"></div>
+</div>
+<script src="jquery-3.5.0.min.js"></script>
+<script src="config.js"></script>
+<script src="login.js"></script>
+</body>
+
+</html>
